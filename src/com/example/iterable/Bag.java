@@ -17,8 +17,8 @@ public class Bag<T> implements Container<T> {
     }
 
     @Override
-    public void add(Object item) {
-        bag.add((T) item);
+    public void add(T item) {
+        bag.add(item);
     }
 
     @Override
